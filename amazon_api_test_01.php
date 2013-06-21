@@ -11,7 +11,7 @@
     $params = array();
     $params["AWSAccessKeyId"] = $access_info->access_key_id;
     $params["AssociateTag"]   = $access_info->associate_tag;
-    $params["BrowseNodeId"]   = "465610";
+    $params["BrowseNodeId"]   = "2128664051";
     $params["Operation"]      = "BrowseNodeLookup";
     $params["Service"]        = "AWSECommerceService";
     $params["Timestamp"]      = gmdate("Y-m-d\TH:i:s\Z");
@@ -49,4 +49,5 @@
     $request_url = $baseurl . "?" . $canonical_string . "&Signature=" . $signature;
 
     echo $request_url;
+
 ?>
